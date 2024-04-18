@@ -114,3 +114,95 @@
   }
 
 /* #endregion Header */
+
+
+
+
+
+/* #region Footer */
+
+
+footer{
+    background-image: url('../images/footer-bg.jpg');
+    background-size: 100%;
+  }
+  
+  .footer_top .container{
+    justify-content: space-between;
+    background-image: url('../images/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+  }
+  
+  .footer_top col{
+    padding-bottom: 2rem;
+  }
+  
+  .footer_top h4{
+    color: var(--dc-light);
+    padding: 0.75rem 0;
+  }
+  
+  .footer_top ul{
+    padding-bottom: 1rem;
+  }
+  
+  .footer_top li a{
+    color: var(--dc-gray);
+    font-size: 9px;
+  }
+  
+  .footer_top li:hover{
+    transform: scale(1.1);
+  }
+  
+  .footer_top li:hover a{
+    color: var(--dc-light);
+  }
+  
+  .footer_bottom{
+    background-color: var(--dc-secondary);
+  }
+  
+  .footer_bottom .container{
+    justify-content: space-between;
+  }
+  
+  .sign_up{
+    color: var(--dc-light);
+    font-weight: 600;
+    border: 2px solid var(--dc-primary);
+    background-color: var(--dc-secondary);
+    padding: 0.75rem;
+    margin: 1.5rem 0;
+    transition: all 0.5s;
+  }
+  
+  .sign_up:hover{
+    background-color: var(--dc-primary);
+  }
+  
+  .social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social span{
+    color: var(--dc-primary);
+    font-weight: 700;
+  }
+  
+  .social img{
+    width: 30px;
+  }
+  
+  .social img:hover{
+    filter: brightness(3);
+    transform: scale(1.2);
+  }
+  
+
+/* #endregion Footer */
+
