@@ -168,7 +168,23 @@
     box-shadow: 0 0 10px var(--dc-primary);
   }
 
-
+  .card img{
+    width: 100%;
+    aspect-ratio: 2/3;
+  }
+  
+  .card span{
+    font-size: 12px;
+  }
+  
+  .card:hover{
+    transform: scale(1.1);
+  }
+  
+  .card img:hover{
+    box-shadow: 0 0 20px var(--dc-gray);
+    
+  }
 
 .main_bottom{
     background-color: var(--dc-primary);

@@ -10,17 +10,22 @@
 
       <div class="row">
 
-        <div class="col-2" v-for="card in cards">
+        @foreach ($comics as $comic)
 
-          <ProductCard 
-            :card="card" 
-            :thumb="card.thumb" 
-            :series="card.series"
-            :price="card.price">
-          </ProductCard>
+        <div class="col-2">
 
+            <div class="card">
+
+                <img src="{{ $comic['thumb'] }}" alt="">
+                <h4>{{ $comic['series'] }}</h4>
+                <span>{{ $comic['price'] }}</span>
+        
+            </div>
+            
         </div>
-
+        
+        @endforeach
+        
       </div>
 
       <button class="load">LOAD MORE</button>
