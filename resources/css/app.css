@@ -107,6 +107,15 @@
     color: var(--dc-primary);
   }
 
+  .search{
+      border-bottom: 2px solid #0282f9;
+    }
+    
+.search input{
+        outline: none;
+        border: none;
+  }
+
   .jumbotron{
     height: 350px;
     background-image: url('../images/jumbotron.jpg');
@@ -114,6 +123,83 @@
   }
 
 /* #endregion Header */
+
+
+
+/* #region Main */
+
+.current_series{
+    color: var(--dc-light);
+    background-color: var(--dc-primary);
+    padding: 0.75rem 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: -21px;
+    left: 15%;
+    border: none;
+  }
+  
+  .main_top{
+    background-color: var(--dc-dark);
+    color: var(--dc-light);
+    padding: 2rem 0;
+    position: relative;
+  }
+  
+  .row{
+    margin: 0;
+  }
+  
+  .load{
+    color: var(--dc-light);
+    background-color: var(--dc-primary);
+    padding: 0.6rem 3rem;
+    border: none;
+    font-weight: 600;
+    font-size: 10px;
+    margin: auto;
+    display: block;
+    transition: all 0.5s;
+  }
+  
+  .load:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px var(--dc-primary);
+  }
+
+
+
+.main_bottom{
+    background-color: var(--dc-primary);
+    color: var(--dc-light);
+    padding: 2rem 0;
+  }
+  
+  .icons{
+    justify-content: space-around;
+  }
+  
+  .icon{
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon img{
+    width: 35px;
+    transition: all 0.25s;
+  }
+  
+  .icon span{
+    padding-left: 1rem;
+    font-size: 10px;
+  }
+  
+  .icon:hover img{
+    transform: scale(1.5);
+  }
+/* #endregion Main */
+
 
 
 

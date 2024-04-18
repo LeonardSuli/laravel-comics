@@ -33,7 +33,7 @@
       </nav>
 
       <div class="search">
-        <input type="text" name="" id="" placeholder="Search">
+        <input type="text" name="" id="" placeholder="Search" size="10">
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
 
