@@ -4,9 +4,14 @@
 
         <div class="container d-flex flex-end">
 
-            <span>DC POWER VISA</span>
-            <span>ADDITIONAL DC SITES</span>
-
+            <div>
+              <span>DC POWER VISA</span>
+              <i class="fa-regular fa-registered"></i>
+            </div>
+            
+            <div>
+              <span>ADDITIONAL DC SITES</span>
+              <i class="fa-solid fa-caret-down"></i></div>
         </div>
 
     </div>
