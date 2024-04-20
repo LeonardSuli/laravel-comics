@@ -23,6 +23,12 @@
     max-width: 1176px;
     margin: auto;
   }
+
+  .container-single{
+    width: 60%;
+    max-width: 1176px;
+    margin: auto;
+  }
     
   .row{
     display: flex;
@@ -63,7 +69,6 @@
   }
   
 /* #endregion Common */
-
 
 
 
@@ -215,9 +220,6 @@
     transform: scale(1.5);
   }
 /* #endregion Main */
-
-
-
 
 
 
