@@ -16,7 +16,10 @@
 
             <div class="card">
 
-                <img src="{{ $comic['thumb'] }}" alt="">
+                <a href="./single">
+                  <img src="{{ $comic['thumb'] }}" alt="">
+                </a>
+
                 <h4>{{ $comic['series'] }}</h4>
                 <span>{{ $comic['price'] }}</span>
         
